@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addons>
+  <addon id="plugin.video.naiad" name="Naiad" version="0.0.1" provider-name="danai18">
+    <requires>
+      <import addon="xbmc.python" version="3.0.0" />
+      <import addon="script.module.requests" version="2.22.0" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+      <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+      <summary lang="en_GB">Naiad — unified media for the family</summary>
+      <description lang="en_GB">A unified streaming add-on with profile support, Trakt sync, MAL sync, and Premiumize integration.</description>
+      <disclaimer lang="en_GB">For personal use. Use only with content you have the right to access.</disclaimer>
+      <platform>all</platform>
+      <license>GPL-3.0</license>
+      <forum />
+      <website />
+      <source>https://github.com/danai18/naiad</source>
+      <news>0.0.1 — Initial scaffold</news>
+    </extension>
+  </addon>
+</addons>
